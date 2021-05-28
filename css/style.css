@@ -1,0 +1,226 @@
+html, body, #hero {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../img/ruido.png),
+                url(../img/cover.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+p {
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+nav.navbar-transparent {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-toggler .fas {
+	color: #fff;
+}
+
+.navbar-nav .nav-item > a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item > a:hover {
+    color: #9bf0e1;
+}
+
+.navbar-nav > .divider {
+    background: #c1c3c8;
+    width: 1px;
+    height: 16px;
+    margin: 12px 17px;
+}
+
+.navbar-nav .nav-item > .alternate {
+    color: #c1c3c8;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-custom {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 50px;
+    transition: all 0.4s;
+    margin: 20px 10px 30px;
+}
+
+.btn-purple {
+    background: #7c25f8;
+}
+
+.btn-purple:hover {
+    background: #6207e3;
+    color: #fff;
+}
+
+.btn-white {
+    border: 2px solid #fff;
+}
+
+.btn-white:hover {
+    background: #fff;
+    color: #000;
+}
+
+.fa, .fas {
+    padding: 5px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+#services {
+    background: #fff;
+}
+
+#services h2, h3 {
+    color: #7c25f8;
+}
+
+#services .row {
+    padding: 0;
+}
+
+.box {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+#resource h2, #resource p {
+    color: #fff;
+}
+
+#resource h3 {
+    color: #9bf0e1;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+.iphone1 {
+    margin-top: -220px;
+    margin-left: -50px;
+}
+
+#footer {
+    background: #000;
+    padding: 50px 0 20px;
+    position: relative;
+}
+
+#footer .nav-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #919496;
+    letter-spacing: .08em;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer .socials li {
+    float: right;
+    margin-right: 10px;
+}
+
+@media (max-width: 575.98px) { 
+	.btn-custom {
+		margin: 5px 10px;
+		font-size: 0.8em;
+	}
+
+    #footer h3 {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    .navbar-nav > .divider {
+        width: 20px;
+        height: 2px;
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	h1 {
+		font-size: 3em;
+	}
+
+	.btn-custom {
+		padding: 5px 40px;
+		margin: 5px 10px;
+        font-size: 1em;
+	}
+
+    #footer h3 {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	h1 {
+		font-size: 4em;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	h1 {
+		font-size: 5em;
+	}
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 100px;
+    }
+}
